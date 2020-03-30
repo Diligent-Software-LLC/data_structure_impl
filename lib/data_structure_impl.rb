@@ -9,8 +9,8 @@ require_relative "data_structure_impl/version"
 class DataStructure #< DataStructureInt
 
   # self.instance?(obj = nil).
-  # Boolean method. Verifies an object is a Array, Hash, Queue, SizedQueue,
-  # or Node instance.
+  # Boolean method. Verifies an object is a Array, Hash, Queue, or SizedQueue
+  # instance.
   # @param obj [*] Any object.
   # @return [TrueClass, FalseClass]
   #   True in the case the object's class or an ancestor class is Array, Hash,
@@ -29,7 +29,7 @@ class DataStructure #< DataStructureInt
   # Boolean method. Verifies a type is a DataStructure type.
   # @param type [*] Any type.
   # @return [TrueClass, FalseClass]
-  #   True in the case the type is Array, Hash, Queue, SizedQueue, or Node, or,
+  #   True in the case the type is Array, Hash, Queue, or SizedQueue, or,
   #   an ancestor is in the type set. False otherwise.
   def self.type?(type = nil)
     element       = self.types_element?(type)
@@ -38,7 +38,7 @@ class DataStructure #< DataStructureInt
     return boolean
   end
 
-  TYPES = [Array, Hash, Queue, SizedQueue, Node].freeze()
+  TYPES = [Array, Hash, Queue, SizedQueue].freeze()
   private_constant :TYPES
 
 end

@@ -36,6 +36,6 @@ module DataStructureHelper
     return boolean
   end
 
-  TYPES = [Array, Hash, Queue, SizedQueue, Node].freeze()
+  TYPES = [Array, Hash, Queue, SizedQueue].freeze()
 
 end
