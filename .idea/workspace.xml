@@ -27,10 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f742877-6bea-4188-aee5-410af6aa2764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_impl_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585588284647</updated>
-      <workItem from="1585588287123" duration="6106000" />
+      <workItem from="1585588287123" duration="6440000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license.">
       <created>1585588946199</created>
@@ -118,7 +115,35 @@
       <option name="project" value="LOCAL" />
       <updated>1585588946199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tests Written&#10;&#10;YARD fixed.">
+      <created>1585599102246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585599102247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Helper&#10;&#10;Added DataStructureHelper.">
+      <created>1585599132856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585599132856</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Build Bug&#10;&#10;Interface never installed.">
+      <created>1585599212622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585599212622</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Build Bug&#10;&#10;Interface never installed.">
+      <created>1585599233258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585599233258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: DataStructure Sprints: 2 #Development" />
@@ -131,7 +156,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license." />
+    <MESSAGE value="Tests Written&#10;&#10;YARD fixed." />
+    <MESSAGE value="Helper&#10;&#10;Added DataStructureHelper." />
+    <MESSAGE value="Build Bug&#10;&#10;Interface never installed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Build Bug&#10;&#10;Interface never installed." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -139,30 +167,30 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585588319001" />
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1585599212277">
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1585599233051">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585599212277" />
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom" timestamp="1585598931912">
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585599233051" />
+    <state width="1539" height="270" key="GridCell.Tab.0.bottom" timestamp="1585599383769">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585598931912" />
-    <state width="1539" height="270" key="GridCell.Tab.0.center" timestamp="1585598931909">
+    <state width="1539" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585599383769" />
+    <state width="1539" height="270" key="GridCell.Tab.0.center" timestamp="1585599383768">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585598931909" />
-    <state width="1539" height="270" key="GridCell.Tab.0.left" timestamp="1585598931908">
+    <state width="1539" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585599383768" />
+    <state width="1539" height="270" key="GridCell.Tab.0.left" timestamp="1585599383768">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585598931908" />
-    <state width="1539" height="270" key="GridCell.Tab.0.right" timestamp="1585598931911">
+    <state width="1539" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585599383768" />
+    <state width="1539" height="270" key="GridCell.Tab.0.right" timestamp="1585599383768">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585598931911" />
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585599216699">
+    <state width="1539" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585599383768" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585599237703">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585599216699" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585599237703" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585596878831">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
