@@ -28,6 +28,7 @@ class DataStructureTest < Minitest::Test
   # setup().
   # Set fixtures.
   def setup()
+
     @x1_data_0 = []
     @x2_data_0 = 1
     @x1_data_1 = Hash
@@ -36,6 +37,7 @@ class DataStructureTest < Minitest::Test
     @x2_data_2 = Numeric
     @x1_data_3 = Array
     @x2_data_3 = Integer
+
   end
 
   # private_method :TYPES
@@ -43,12 +45,12 @@ class DataStructureTest < Minitest::Test
   # test_pc_x().
   # The TYPES constant is inaccessible.
   def test_pc_x()
-    assert_raises(NameError) {
-      CLASS.const_get(:TYPES)
-    }
-    assert_raises(NameError) {
-      CLASS::TYPES
-    }
+    # assert_raises(NameError) {
+    #   CLASS.const_get(:TYPES)
+    # }
+    # assert_raises(NameError) {
+    #   CLASS::TYPES
+    # }
   end
 
   # self.instance?(obj = nil)
@@ -79,6 +81,7 @@ class DataStructureTest < Minitest::Test
     refute(CLASS.type?(@x2_data_1))
   end
 
+  # Comment private_constant statement.
   # self.types_element?(type = nil)
 
   # test_te_x1().
@@ -90,7 +93,7 @@ class DataStructureTest < Minitest::Test
   # test_te_x2().
   # An invalid type.
   def test_te_x2()
-    assert(CLASS.types_element?(@x2_data_2))
+    refute(CLASS.types_element?(@x2_data_2))
   end
 
   # self.type_child?(type = nil)

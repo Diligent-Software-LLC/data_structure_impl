@@ -2,11 +2,12 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "data_structure_impl/version"
+require_relative 'data_structure_impl/data_structure_helper'
 
 # DataStructure.
 # A DataStructure type implementation. Implements the DataStructure type
 # interface.
-class DataStructure #< DataStructureInt
+class DataStructure < DataStructureInt
 
   # self.instance?(obj = nil).
   # Boolean method. Verifies an object is a Array, Hash, Queue, or SizedQueue
@@ -19,7 +20,7 @@ class DataStructure #< DataStructureInt
     boolean = false
     TYPES.each { |type|
       if (obj.is_a?(type))
-        boolean = false
+        boolean = true
       end
     }
     return boolean

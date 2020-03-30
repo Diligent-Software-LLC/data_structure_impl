@@ -7,29 +7,28 @@ require_relative '../data_structure_impl'
 # Contains class helper methods.
 module DataStructureHelper
 
-  extend_object :DataStructure
+  extend_object(DataStructure)
 
-  # self.types_element?(type = nil).
+  # types_element?(type = nil).
   # Verifies an identifier is a TYPES element.
   # @param type [*] Any identifier.
   # @return [TrueClass, FalseClass]
   #   True in the case the argument is a TYPES element. False otherwise.
-  def self.types_element?(type = nil)
+  def types_element?(type = nil)
     boolean = TYPES.include?(type)
     return boolean
   end
 
-  # self.type_child?(type = nil).
+  # type_child?(type = nil).
   # Boolean method. Verifies a type is a data structure type's child.
   # @param type [*] Any identifier.
   # @return [TrueClass, FalseClass]
   #   True in the case a TYPES element is type's ancestor. False otherwise.
-  def self.type_child?(type = nil)
+  def type_child?(type = nil)
     boolean        = false
     type_ancestors = type.ancestors()
     type_ancestors.each { |ancestor|
-      if (DataStructure.types_element?(ancestor) &&
-          !DataStructure.type_element?(type))
+      if (self.types_element?(ancestor) && !self.types_element?(type))
         boolean = true
       end
     }
