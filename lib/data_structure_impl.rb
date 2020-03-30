@@ -6,7 +6,7 @@ require_relative "data_structure_impl/version"
 # DataStructure.
 # A DataStructure type implementation. Implements the DataStructure type
 # interface.
-class DataStructure < DataStructureInt
+class DataStructure #< DataStructureInt
 
   # self.instance?(obj = nil).
   # Boolean method. Verifies an object is a Array, Hash, Queue, SizedQueue,
