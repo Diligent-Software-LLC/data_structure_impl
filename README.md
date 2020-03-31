@@ -4,11 +4,13 @@ A DataStructure type implementation. Implements the DataStructure type interface
 
 ## Installation
 
-- Refer the [packages](https://docs.diligentsoftware.org/datastructure-1/packages) page.
+- Refer the 
+[packages](https://docs.diligentsoftware.org/datastructure-1/packages) page.
 
 ## Documentation
 
-- Refer the [implementation](https://docs.diligentsoftware.org/datastructure-1/documentation) homepage.
+- Refer the [implementation](https://docs.diligentsoftware.org/datastructure-1/implementation) 
+homepage.
 
 ## Contributing
 
@@ -22,13 +24,8 @@ Greatly appreciated.
 
 ### Report Bugs
 
-Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/1).
+- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/1).
 
 ### Fix Bugs
 
-Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/2).
-
-### Improve Functionality
-
-Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/3).
-
+- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/2).

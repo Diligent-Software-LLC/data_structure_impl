@@ -27,6 +27,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2f742877-6bea-4188-aee5-410af6aa2764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yardopts" beforeDir="false" afterPath="$PROJECT_DIR$/.yardopts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_impl.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/data_structure_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl/data_structure_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_structure_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +243,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585588284647</updated>
-      <workItem from="1585588287123" duration="9924000" />
+      <workItem from="1585588287123" duration="13334000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license.">
       <created>1585588946199</created>
@@ -293,16 +301,34 @@
       <option name="project" value="LOCAL" />
       <updated>1585601459836</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="YARDOC Configuration&#10;&#10;Added two description tags.">
+      <created>1585659844669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585659844669</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Sprints: 2 #Documenting " />
+        <option name="defaultSearch" value="project: DataStructure Sprints: 2 #{Prepare Deploy} " />
         <username>admin</username>
       </YouTrack>
     </servers>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license." />
@@ -311,7 +337,8 @@
     <MESSAGE value="Build Bug&#10;&#10;Interface never installed." />
     <MESSAGE value="Build Bug&#10;&#10;Node constant nonexistent. Never specified dependency." />
     <MESSAGE value="Development Complete&#10;&#10;All tests pass. 100% code coverage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;All tests pass. 100% code coverage." />
+    <MESSAGE value="YARDOC Configuration&#10;&#10;Added two description tags." />
+    <option name="LAST_COMMIT_MESSAGE" value="YARDOC Configuration&#10;&#10;Added two description tags." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -323,10 +350,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="570" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.975@0.23.1680.975" timestamp="1585659697545" />
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1585601459516">
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1585659844159">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585601459516" />
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585659844159" />
     <state width="1539" height="270" key="GridCell.Tab.0.bottom" timestamp="1585659625776">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -343,10 +370,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="1539" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585659625775" />
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585599745399">
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585663441025">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585599745399" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585663441025" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585596878831">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -359,10 +386,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585659619963" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585659517941">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585663617125">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585659517941" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585663617125" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_impl@test_te_x1.rcov" NAME="test_te_x1 Coverage Results" MODIFIED="1585601153005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />

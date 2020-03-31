@@ -4,13 +4,15 @@
 require_relative '../data_structure_impl'
 
 # DataStructureHelper.
-# Contains class helper methods.
+# @module_description
+#   Contains class helper methods.
 module DataStructureHelper
 
   extend_object(DataStructure)
 
   # types_element?(type = nil).
-  # Verifies an identifier is a TYPES element.
+  # @description
+  #   Verifies an identifier is a TYPES element.
   # @param type [*] Any identifier.
   # @return [TrueClass, FalseClass]
   #   True in the case the argument is a TYPES element. False otherwise.
@@ -20,11 +22,14 @@ module DataStructureHelper
   end
 
   # type_child?(type = nil).
-  # Boolean method. Verifies a type is a data structure type's child.
+  # @description
+  #   Boolean method. Verifies a type is a data structure type's
+  #   child.
   # @param type [*] Any identifier.
   # @return [TrueClass, FalseClass]
   #   True in the case a TYPES element is type's ancestor. False otherwise.
   def type_child?(type = nil)
+
     boolean        = false
     type_ancestors = type.ancestors()
     type_ancestors.each { |ancestor|
@@ -33,6 +38,7 @@ module DataStructureHelper
       end
     }
     return boolean
+
   end
 
   TYPES = [Array, Hash, Queue, SizedQueue].freeze()

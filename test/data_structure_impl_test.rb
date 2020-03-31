@@ -1,14 +1,16 @@
 require_relative 'test_helper'
 
 # DataStructureTest.
-# Tests the DataStructure class.
+# @class_description
+#   Tests the DataStructure class.
 class DataStructureTest < Minitest::Test
 
   CLASS = DataStructure
 
   # test_conf_doc_f_ex().
-  # The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, and
-  # README.md files exist.
+  # @description
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, and
+  #   README.md files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -20,13 +22,15 @@ class DataStructureTest < Minitest::Test
   end
 
   # test_version_declared().
-  # The version was declared.
+  # @description
+  #   The version was declared.
   def test_version_declared()
     refute_nil(::DataStructure::VERSION)
   end
 
   # setup().
-  # Set fixtures.
+  # @description
+  #   Set fixtures.
   def setup()
 
     @x1_data_0 = []
@@ -43,7 +47,8 @@ class DataStructureTest < Minitest::Test
   # private_method :TYPES
 
   # test_pc_x().
-  # The TYPES constant is inaccessible.
+  # @description
+  #   The TYPES constant is inaccessible.
   def test_pc_x()
     # assert_raises(NameError) {
     #   CLASS.const_get(:TYPES)
@@ -56,13 +61,15 @@ class DataStructureTest < Minitest::Test
   # self.instance?(obj = nil)
 
   # test_c_inst_x1().
-  # A valid instance.
+  # @description
+  #   A valid instance.
   def test_c_inst_x1()
     assert(CLASS.instance?(@x1_data_0))
   end
 
   # test_c_inst_x2()
-  # An invalid object.
+  # @description
+  #   An invalid object.
   def test_c_inst_x2()
     refute(CLASS.instance?(@x2_data_0))
   end
@@ -70,13 +77,15 @@ class DataStructureTest < Minitest::Test
   # self.type?(type = nil)
 
   # test_ct_x1().
-  # A valid type.
+  # @description
+  #   A valid type.
   def test_ct_x1()
     assert(CLASS.type?(@x1_data_1))
   end
 
   # test_ct_x2().
-  # An invalid type.
+  # @description
+  #   An invalid type.
   def test_ct_x2()
     refute(CLASS.type?(@x2_data_1))
   end
@@ -85,13 +94,15 @@ class DataStructureTest < Minitest::Test
   # self.types_element?(type = nil)
 
   # test_te_x1().
-  # A DataStructure type.
+  # @description
+  #   A DataStructure type.
   def test_te_x1()
     assert(CLASS.types_element?(@x1_data_2))
   end
 
   # test_te_x2().
-  # An invalid type.
+  # @description
+  #   An invalid type.
   def test_te_x2()
     refute(CLASS.types_element?(@x2_data_2))
   end
@@ -99,19 +110,22 @@ class DataStructureTest < Minitest::Test
   # self.type_child?(type = nil)
 
   # test_tc_x1().
-  # A TYPES element.
+  # @description
+  #   A TYPES element.
   def test_tc_x1()
     refute(CLASS.type_child?(@x1_data_3))
   end
 
   # test_tc_x2().
-  # An invalid type. No ancestors are TYPES elements.
+  # @description
+  #   An invalid type. No ancestors are TYPES elements.
   def test_tc_x2()
     refute(CLASS.type_child?(@x2_data_3))
   end
 
   # teardown().
-  # Cleanup.
+  # @description
+  #   Cleanup.
   def teardown()
   end
 
