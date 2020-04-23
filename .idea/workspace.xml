@@ -27,14 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f742877-6bea-4188-aee5-410af6aa2764" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yardopts" beforeDir="false" afterPath="$PROJECT_DIR$/.yardopts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structure_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/data_structure_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl/data_structure_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +44,12 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZrDOBv4SWuzXzyuI9cdudmEepA" />
@@ -63,10 +64,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.youtrack.notifications" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="ytplugin.issueListCompactView" value="true" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -74,6 +77,8 @@
       <command value="touch .tardopts" />
       <command value="mv .tardopts .yardopts" />
       <command value="touch .yardopts" />
+      <command value="mkdir artifacts" />
+      <command value="mv data_structure_impl-0.1.0.gem artifacts" />
     </option>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DataStructureTest">
@@ -243,7 +248,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585588284647</updated>
-      <workItem from="1585588287123" duration="13334000" />
+      <workItem from="1585588287123" duration="13951000" />
+      <workItem from="1587670741158" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license.">
       <created>1585588946199</created>
@@ -308,10 +314,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585659844669</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v0.1.0 Complete&#10;&#10;Reformatted files. Updated Changelog.">
+      <created>1585664142383</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585664142384</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Sprints: 2 #{Prepare Deploy} " />
+        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Implementation Sprints: 6 #{Setup } " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -324,7 +337,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -338,7 +353,8 @@
     <MESSAGE value="Build Bug&#10;&#10;Node constant nonexistent. Never specified dependency." />
     <MESSAGE value="Development Complete&#10;&#10;All tests pass. 100% code coverage." />
     <MESSAGE value="YARDOC Configuration&#10;&#10;Added two description tags." />
-    <option name="LAST_COMMIT_MESSAGE" value="YARDOC Configuration&#10;&#10;Added two description tags." />
+    <MESSAGE value="v0.1.0 Complete&#10;&#10;Reformatted files. Updated Changelog." />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.1.0 Complete&#10;&#10;Reformatted files. Updated Changelog." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -350,30 +366,30 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="570" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.975@0.23.1680.975" timestamp="1585659697545" />
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1585659844159">
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1585664141973">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585659844159" />
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom" timestamp="1585659625776">
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585664141973" />
+    <state width="1540" height="270" key="GridCell.Tab.0.bottom" timestamp="1587671258988">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585659625776" />
-    <state width="1539" height="270" key="GridCell.Tab.0.center" timestamp="1585659625775">
+    <state width="1540" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587671258988" />
+    <state width="1540" height="270" key="GridCell.Tab.0.center" timestamp="1587671258988">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585659625775" />
-    <state width="1539" height="270" key="GridCell.Tab.0.left" timestamp="1585659625775">
+    <state width="1540" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587671258988" />
+    <state width="1540" height="270" key="GridCell.Tab.0.left" timestamp="1587671258987">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585659625775" />
-    <state width="1539" height="270" key="GridCell.Tab.0.right" timestamp="1585659625775">
+    <state width="1540" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587671258987" />
+    <state width="1540" height="270" key="GridCell.Tab.0.right" timestamp="1587671258988">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585659625775" />
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585663441025">
+    <state width="1540" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587671258988" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585664744680">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585663441025" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585664744680" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585596878831">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -382,19 +398,19 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1680.975@0.23.1680.975" timestamp="1585601187622" />
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1585659619963">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1585664707592">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585659619963" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585663617125">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585664707592" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587670971026">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585663617125" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587670971026" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_impl@test_te_x1.rcov" NAME="test_te_x1 Coverage Results" MODIFIED="1585601153005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_tc_x2.rcov" NAME="test_tc_x2 Coverage Results" MODIFIED="1585601214913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
-    <SUITE FILE_PATH="coverage/data_structure_impl@DataStructureTest.rcov" NAME="DataStructureTest Coverage Results" MODIFIED="1585601303433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
+    <SUITE FILE_PATH="coverage/data_structure_impl@DataStructureTest.rcov" NAME="DataStructureTest Coverage Results" MODIFIED="1585664163998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_pc_x.rcov" NAME="test_pc_x Coverage Results" MODIFIED="1585600814392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_te_x2.rcov" NAME="test_te_x2 Coverage Results" MODIFIED="1585601196265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_tc_x1.rcov" NAME="test_tc_x1 Coverage Results" MODIFIED="1585601206716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />

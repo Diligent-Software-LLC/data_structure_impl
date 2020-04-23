@@ -8,5 +8,5 @@ require 'data_structure_int'
 #   A DataStructure type implementation. Implements the DataStructure type
 #   interface.
 class DataStructure < DataStructureInt
-  VERSION = '0.1.0'.freeze()
+  VERSION = '1.0.0'.freeze()
 end
