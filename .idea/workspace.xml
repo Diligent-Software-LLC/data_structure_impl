@@ -26,10 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f742877-6bea-4188-aee5-410af6aa2764" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/data_structure_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_structure_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/data_structure_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_structure_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_impl_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="279" />
+    <option name="myElementSize" value="318" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -111,6 +116,35 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_t_x" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_structure_impl" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_structure_impl_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_t_x" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_tc_x1" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="data_structure_impl" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -169,35 +203,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_te_x1" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="data_structure_impl" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_structure_impl_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_te_x1" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_te_x2" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="data_structure_impl" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -230,10 +235,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Test::Unit/Shoulda/Minitest.DataStructureTest" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_t_x" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_tc_x2" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_tc_x1" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_te_x2" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_te_x1" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +254,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585588284647</updated>
       <workItem from="1585588287123" duration="13951000" />
-      <workItem from="1587670741158" duration="544000" />
+      <workItem from="1587670741158" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license.">
       <created>1585588946199</created>
@@ -321,10 +326,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585664142384</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed Gem Specification License attribute. Fixed Gem Specification Changelog URI. Edited dependencies.">
+      <created>1587671390845</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587671390845</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Implementation Sprints: 6 #{Setup } " />
+        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Implementation Sprints: 6 #{Development} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -354,7 +366,8 @@
     <MESSAGE value="Development Complete&#10;&#10;All tests pass. 100% code coverage." />
     <MESSAGE value="YARDOC Configuration&#10;&#10;Added two description tags." />
     <MESSAGE value="v0.1.0 Complete&#10;&#10;Reformatted files. Updated Changelog." />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.1.0 Complete&#10;&#10;Reformatted files. Updated Changelog." />
+    <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed Gem Specification License attribute. Fixed Gem Specification Changelog URI. Edited dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed Gem Specification License attribute. Fixed Gem Specification Changelog URI. Edited dependencies." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -366,30 +379,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="570" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.975@0.23.1680.975" timestamp="1585659697545" />
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1585664141973">
+    <state x="568" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587671777372">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585664141973" />
-    <state width="1540" height="270" key="GridCell.Tab.0.bottom" timestamp="1587671258988">
+    <state x="568" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.975@0.23.1680.975" timestamp="1587671777371" />
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1587671390295">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1540" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587671258988" />
-    <state width="1540" height="270" key="GridCell.Tab.0.center" timestamp="1587671258988">
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587671390295" />
+    <state width="1540" height="270" key="GridCell.Tab.0.bottom" timestamp="1587677526085">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1540" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587671258988" />
-    <state width="1540" height="270" key="GridCell.Tab.0.left" timestamp="1587671258987">
+    <state width="1540" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587677526085" />
+    <state width="1540" height="270" key="GridCell.Tab.0.center" timestamp="1587677526084">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1540" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587671258987" />
-    <state width="1540" height="270" key="GridCell.Tab.0.right" timestamp="1587671258988">
+    <state width="1540" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587677526084" />
+    <state width="1540" height="270" key="GridCell.Tab.0.left" timestamp="1587677526083">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1540" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587671258988" />
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585664744680">
+    <state width="1540" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587677526083" />
+    <state width="1540" height="270" key="GridCell.Tab.0.right" timestamp="1587677526084">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585664744680" />
+    <state width="1540" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587677526084" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587677606613">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587677606613" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585596878831">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -398,21 +415,22 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1680.975@0.23.1680.975" timestamp="1585601187622" />
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1585664707592">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1587671754645">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585664707592" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587670971026">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587671754645" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587673383975">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587670971026" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587673383975" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_impl@test_te_x1.rcov" NAME="test_te_x1 Coverage Results" MODIFIED="1585601153005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_tc_x2.rcov" NAME="test_tc_x2 Coverage Results" MODIFIED="1585601214913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
-    <SUITE FILE_PATH="coverage/data_structure_impl@DataStructureTest.rcov" NAME="DataStructureTest Coverage Results" MODIFIED="1585664163998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
+    <SUITE FILE_PATH="coverage/data_structure_impl@DataStructureTest.rcov" NAME="DataStructureTest Coverage Results" MODIFIED="1587677519821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_pc_x.rcov" NAME="test_pc_x Coverage Results" MODIFIED="1585600814392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_te_x2.rcov" NAME="test_te_x2 Coverage Results" MODIFIED="1585601196265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
+    <SUITE FILE_PATH="coverage/data_structure_impl@test_t_x.rcov" NAME="test_t_x Coverage Results" MODIFIED="1587677499168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
     <SUITE FILE_PATH="coverage/data_structure_impl@test_tc_x1.rcov" NAME="test_tc_x1 Coverage Results" MODIFIED="1585601206716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
   </component>
 </project>

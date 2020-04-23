@@ -2,7 +2,8 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "data_structure_impl/version"
-require_relative 'data_structure_impl/data_structure_helper'
+require 'node'
+require 'linked_list_impl'
 
 # DataStructure.
 # @class_description
@@ -10,11 +11,21 @@ require_relative 'data_structure_impl/data_structure_helper'
 #   interface.
 class DataStructure < DataStructureInt
 
+  # self.types().
+  # @description
+  #   Gets the types.
+  # @return [Array]
+  #   The TYPES array.
+  def self.types()
+    return TYPES
+  end
+
   # self.instance?(obj = nil).
   # @description
-  #   Boolean method. Verifies an object is a Array, Hash, Queue, or SizedQueue
+  #   Predicate. Verifies an object is a Array, Hash, Queue, or SizedQueue
   #   instance.
-  # @param obj [*] Any object.
+  # @param obj [.]
+  #   Any object.
   # @return [TrueClass, FalseClass]
   #   True in the case the object's class or an ancestor class is Array, Hash,
   #   Queue, SizedQueue, or Node. False otherwise.
@@ -22,9 +33,11 @@ class DataStructure < DataStructureInt
 
     boolean = false
     TYPES.each { |type|
+
       if (obj.is_a?(type))
         boolean = true
       end
+
     }
     return boolean
 
@@ -32,8 +45,9 @@ class DataStructure < DataStructureInt
 
   # self.type?(type = nil).
   # @description
-  #   Boolean method. Verifies a type is a DataStructure type.
-  # @param type [*] Any type.
+  #   Predicate. Verifies a type is a DataStructure type.
+  # @param type [.]
+  #   Any type.
   # @return [TrueClass, FalseClass]
   #   True in the case the type is Array, Hash, Queue, or SizedQueue, or,
   #   an ancestor is in the type set. False otherwise.
@@ -46,8 +60,41 @@ class DataStructure < DataStructureInt
 
   end
 
-  TYPES = [Array, Hash, Queue, SizedQueue].freeze()
+  # self.types_element?(type = nil).
+  # @description
+  #   Verifies an identifier is a TYPES element.
+  # @param type [.]
+  #   Any identifier.
+  # @return [TrueClass, FalseClass]
+  #   True in the case the argument is a TYPES element. False otherwise.
+  def self.types_element?(type = nil)
+    boolean = TYPES.include?(type)
+    return boolean
+  end
+
+  # self.type_child?(type = nil).
+  # @description
+  #   Predicate. Verifies a type is a data structure type's child.
+  # @param type [.]
+  #   Any identifier.
+  # @return [TrueClass, FalseClass]
+  #   True in the case a TYPES element is type's ancestor. False otherwise.
+  def self.type_child?(type = nil)
+
+    boolean        = false
+    type_ancestors = type.ancestors()
+    type_ancestors.each { |ancestor|
+
+      if (self.types_element?(ancestor) && !self.types_element?(type))
+        boolean = true
+      end
+
+    }
+    return boolean
+
+  end
+
+  TYPES = [Array, Hash, Queue, SizedQueue, Node, LinkedList].freeze()
   private_constant :TYPES
 
 end
-
