@@ -26,15 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f742877-6bea-4188-aee5-410af6aa2764" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/data_structure_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl/data_structure_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_impl_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="318" />
+    <option name="myElementSize" value="338" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -254,7 +247,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585588284647</updated>
       <workItem from="1585588287123" duration="13951000" />
-      <workItem from="1587670741158" duration="3598000" />
+      <workItem from="1587670741158" duration="4628000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license.">
       <created>1585588946199</created>
@@ -333,10 +326,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587671390845</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Development Complete&#10;&#10;Deleted data_structure_helper.rb. Added 'self.types()', 'self.types_element?(type = nil)', and 'self.type_child?(type = nil)' methods. Added Node and LinkedList in the TYPES array. Edited YARDocumentation. 'require'd 'node' and 'linked_list_impl'. Replaced fixtures. Set test constants. Added a TYPES method test. Added a .yardopts assertion. Fixed 'require' statement in test_helper.rb. Deleted Travis CI deployment settings. Edited dependencies.">
+      <created>1587678023590</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587678023592</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Implementation Sprints: 6 #{Development} " />
+        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Implementation Sprints: 6 State:{ Prepare Deployment}  " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -367,7 +367,8 @@
     <MESSAGE value="YARDOC Configuration&#10;&#10;Added two description tags." />
     <MESSAGE value="v0.1.0 Complete&#10;&#10;Reformatted files. Updated Changelog." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed Gem Specification License attribute. Fixed Gem Specification Changelog URI. Edited dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Major Version. Formatted Gem Specification. Fixed Gem Specification License attribute. Fixed Gem Specification Changelog URI. Edited dependencies." />
+    <MESSAGE value="Development Complete&#10;&#10;Deleted data_structure_helper.rb. Added 'self.types()', 'self.types_element?(type = nil)', and 'self.type_child?(type = nil)' methods. Added Node and LinkedList in the TYPES array. Edited YARDocumentation. 'require'd 'node' and 'linked_list_impl'. Replaced fixtures. Set test constants. Added a TYPES method test. Added a .yardopts assertion. Fixed 'require' statement in test_helper.rb. Deleted Travis CI deployment settings. Edited dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Deleted data_structure_helper.rb. Added 'self.types()', 'self.types_element?(type = nil)', and 'self.type_child?(type = nil)' methods. Added Node and LinkedList in the TYPES array. Edited YARDocumentation. 'require'd 'node' and 'linked_list_impl'. Replaced fixtures. Set test constants. Added a TYPES method test. Added a .yardopts assertion. Fixed 'require' statement in test_helper.rb. Deleted Travis CI deployment settings. Edited dependencies." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -383,10 +384,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.975@0.23.1680.975" timestamp="1587671777371" />
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1587671390295">
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2" timestamp="1587678022723">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587671390295" />
+    <state x="195" y="87" width="1285" height="857" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587678022723" />
     <state width="1540" height="270" key="GridCell.Tab.0.bottom" timestamp="1587677526085">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -419,10 +420,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587671754645" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587673383975">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587678214234">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587673383975" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587678214234" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_impl@test_te_x1.rcov" NAME="test_te_x1 Coverage Results" MODIFIED="1585601153005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
