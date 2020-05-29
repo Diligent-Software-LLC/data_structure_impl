@@ -5,8 +5,8 @@ require 'data_structure_int'
 
 # DataStructure.
 # @class_description
-#   A DataStructure type implementation. Implements the DataStructure type
-#   interface.
+#   A DataStructure type library's implementation. Implements the DataStructure
+#   type interface.
 class DataStructure < DataStructureInt
-  VERSION = '1.0.0'.freeze()
+  VERSION = '2.0.0'.freeze()
 end

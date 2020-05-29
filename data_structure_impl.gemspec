@@ -6,10 +6,10 @@ Gem::Specification.new do |spec|
   spec.name                  = "data_structure_impl"
   spec.version               = DataStructure::VERSION
   spec.authors               = ["Diligent Software LLC"]
-  spec.email                 = ["diligentsoftwarellc@gmail.com"]
-  spec.summary               = %q{A DataStructure type implementation.
+  spec.email                 = ["contact@diligentsoftware.org"]
+  spec.summary               = %q{A DataStructure type library's implementation.
 Implements the DataStructure type interface.}
-  spec.description           = %q{A DataStructure type implementation.
+  spec.description           = %q{A DataStructure type library's implementation.
 Implements the DataStructure type interface. Donations support continuous
 improvement and maintenance. The aim is a reliable, integrable, and endurable
  DataStructure library. Make a donation at the
@@ -45,9 +45,9 @@ appreciated.}
   spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'simplecov', '~> 0'
   spec.add_development_dependency 'data_structure_int', '~> 1'
-  spec.add_development_dependency 'node', '~> 4'
+  spec.add_development_dependency 'node_comp', '~> 1'
   spec.add_development_dependency 'linked_list_int', '~> 2'
-  spec.add_development_dependency 'linked_list_impl', '~> 1'
+  spec.add_development_dependency 'linked_list_impl', '~> 2'
   spec.add_development_dependency 'linked_list_iterator', '~> 1'
   spec.add_development_dependency 'data_library', '~> 0'
 

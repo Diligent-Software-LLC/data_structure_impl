@@ -1,16 +1,17 @@
 # data_structure_impl [![Gem Version](https://badge.fury.io/rb/data_structure_impl.svg)](https://badge.fury.io/rb/data_structure_impl) ![Gem](https://img.shields.io/gem/dt/data_structure_impl) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/data_structure_impl.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/data_structure_impl)
 
-A DataStructure type implementation. Implements the DataStructure type interface.
+A DataStructure type library's implementation. Implements the DataStructure type
+ interface.
 
 ## Installation
 
-- Refer the 
-[packages](https://docs.diligentsoftware.org/datastructure-1/packages) page.
+- Refer Implementation's 
+[Packages](https://docs.diligentsoftware.org/datastructure-1/packages#implementation).
 
 ## Documentation
 
-- Refer the [implementation](https://docs.diligentsoftware.org/datastructure-1/implementation) 
-homepage.
+- Refer Implementation's 
+[Homepage](https://docs.diligentsoftware.org/datastructure-1/implementation).
 
 ## Contributing
 
@@ -24,8 +25,10 @@ Greatly appreciated.
 
 ### Report Bugs
 
-- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/1).
+- Refer the 
+[Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/1).
 
 ### Fix Bugs
 
-- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/2).
+- Refer the 
+[Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_structure_impl/issues/2).
