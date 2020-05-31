@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.0.0, 2020-05-31
+
+### Added
+
+- node_error, linked_list_comp, diagram_factory_comp, and diagram_comp 
+development dependencies.
+- node_comp and linked_list_comp 'require'ments.
+- Test coverage.
+
+### Edited
+
+- Updated Gem Specification's email, summary, description, and dependencies.
+- Rewrote README.md.
+- Deleted node and linked_list_impl 'require'ments.
+- Reformatted.
+- Deleted linked_list_int, linked_list_impl, and linked_list_iterator 
+dependencies.
+
+### Fixed
+
 ## v1.0.0, 2020-04-23
 
 ### Added

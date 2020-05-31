@@ -26,12 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f742877-6bea-4188-aee5-410af6aa2764" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/data_structure_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_impl_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +254,7 @@
       <workItem from="1587670741158" duration="5354000" />
       <workItem from="1590794053312" duration="2322000" />
       <workItem from="1590864532693" duration="908000" />
-      <workItem from="1590964386336" duration="616000" />
+      <workItem from="1590964386336" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project&#10;&#10;Initialized project. Generated files. Separately added a Changelog, a Code of Conduct, and a license.">
       <created>1585588946199</created>
@@ -359,10 +354,17 @@
       <option name="project" value="LOCAL" />
       <updated>1590795098567</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Development Complete&#10;&#10;Deleted node and linked_list_impl 'require'ments. Added node_comp and linked_list_comp 'require'ments. Added test coverage. Reformatted. Deleted linked_list_int, linked_list_impl, and linked_list_iterator dependencies. Added node_error, linked_list_comp, diagram_factory_comp, and diagram_comp development dependencies.">
+      <created>1590965159048</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590965159049</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Implementation Sprints: 9 State: {Development}  " />
+        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Implementation Sprints: 9 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -396,7 +398,8 @@
     <MESSAGE value="Development Complete&#10;&#10;Deleted data_structure_helper.rb. Added 'self.types()', 'self.types_element?(type = nil)', and 'self.type_child?(type = nil)' methods. Added Node and LinkedList in the TYPES array. Edited YARDocumentation. 'require'd 'node' and 'linked_list_impl'. Replaced fixtures. Set test constants. Added a TYPES method test. Added a .yardopts assertion. Fixed 'require' statement in test_helper.rb. Deleted Travis CI deployment settings. Edited dependencies." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Updated Gem Specification's email, summary, description, and dependencies. Rewrote README.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Major Version. Updated Gem Specification's email, summary, description, and dependencies. Rewrote README.md." />
+    <MESSAGE value="Development Complete&#10;&#10;Deleted node and linked_list_impl 'require'ments. Added node_comp and linked_list_comp 'require'ments. Added test coverage. Reformatted. Deleted linked_list_int, linked_list_impl, and linked_list_iterator dependencies. Added node_error, linked_list_comp, diagram_factory_comp, and diagram_comp development dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Deleted node and linked_list_impl 'require'ments. Added node_comp and linked_list_comp 'require'ments. Added test coverage. Reformatted. Deleted linked_list_int, linked_list_impl, and linked_list_iterator dependencies. Added node_error, linked_list_comp, diagram_factory_comp, and diagram_comp development dependencies." />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="175" key="#Servers" timestamp="1585588319001">
@@ -411,10 +414,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="568" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.975@0.23.1680.975" timestamp="1587671777371" />
-    <state x="61" y="47" width="1538" height="907" key="CommitChangelistDialog2" timestamp="1590795097283">
+    <state x="61" y="47" width="1538" height="907" key="CommitChangelistDialog2" timestamp="1590965158189">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="61" y="47" width="1538" height="907" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590795097283" />
+    <state x="61" y="47" width="1538" height="907" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590965158189" />
     <state width="1540" height="270" key="GridCell.Tab.0.bottom" timestamp="1590964950098">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -447,10 +450,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587671754645" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590795185717">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590965190968">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590795185717" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590965190968" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_impl@test_te_x1.rcov" NAME="test_te_x1 Coverage Results" MODIFIED="1585601153005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_impl" />
