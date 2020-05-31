@@ -5,7 +5,7 @@ require_relative 'test_helper'
 #   Tests the DataStructure class.
 class DataStructureTest < Minitest::Test
 
-  # Constants
+  # Constants.
   CLASS            = DataStructure
   ARRAY_DS         = []
   INTEGER_DATA     = 1
@@ -18,7 +18,8 @@ class DataStructureTest < Minitest::Test
   # test_conf_doc_f_ex().
   # @description
   #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
-  #   and .yardopts files exist.
+  #   .yardopts, .gitignore, Changelog.md, CODE_OF_CONDUCT.md,
+  #   data_structure_impl.gemspec, Gemfile.lock, and Rakefile files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -27,6 +28,12 @@ class DataStructureTest < Minitest::Test
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
     assert_path_exists('.yardopts')
+    assert_path_exists('.gitignore')
+    assert_path_exists('Changelog.md')
+    assert_path_exists('CODE_OF_CONDUCT.md')
+    assert_path_exists('data_structure_impl.gemspec')
+    assert_path_exists('Gemfile.lock')
+    assert_path_exists('Rakefile')
 
   end
 
@@ -43,7 +50,7 @@ class DataStructureTest < Minitest::Test
   def setup()
   end
 
-  # DataStructure.types()
+  # DataStructure.types().
 
   # test_t_x().
   # @description
@@ -53,7 +60,7 @@ class DataStructureTest < Minitest::Test
     assert_equal(expected, DataStructure.types())
   end
 
-  # self.instance?(obj = nil)
+  # self.instance?(obj = nil).
 
   # test_c_inst_x1().
   # @description
@@ -62,14 +69,14 @@ class DataStructureTest < Minitest::Test
     assert(CLASS.instance?(ARRAY_DS))
   end
 
-  # test_c_inst_x2()
+  # test_c_inst_x2().
   # @description
   #   An invalid object.
   def test_c_inst_x2()
     refute(CLASS.instance?(INTEGER_DATA))
   end
 
-  # self.type?(type = nil)
+  # self.type?(type = nil).
 
   # test_ct_x1().
   # @description
@@ -92,4 +99,3 @@ class DataStructureTest < Minitest::Test
   end
 
 end
-

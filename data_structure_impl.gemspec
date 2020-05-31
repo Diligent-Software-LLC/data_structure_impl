@@ -46,9 +46,10 @@ appreciated.}
   spec.add_development_dependency 'simplecov', '~> 0'
   spec.add_development_dependency 'data_structure_int', '~> 1'
   spec.add_development_dependency 'node_comp', '~> 1'
-  spec.add_development_dependency 'linked_list_int', '~> 2'
-  spec.add_development_dependency 'linked_list_impl', '~> 2'
-  spec.add_development_dependency 'linked_list_iterator', '~> 1'
+  spec.add_development_dependency 'node_error', '~> 4'
+  spec.add_development_dependency 'linked_list_comp', '~> 1'
   spec.add_development_dependency 'data_library', '~> 0'
+  spec.add_development_dependency 'diagram_factory_comp', '~> 0'
+  spec.add_development_dependency 'diagram_comp', '~> 0'
 
 end

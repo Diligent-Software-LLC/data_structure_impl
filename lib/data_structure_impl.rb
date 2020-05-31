@@ -2,8 +2,8 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "data_structure_impl/version"
-require 'node'
-require 'linked_list_impl'
+require 'node_comp'
+require 'linked_list_comp'
 
 # DataStructure.
 # @class_description
@@ -85,7 +85,7 @@ class DataStructure < DataStructureInt
     type_ancestors = type.ancestors()
     type_ancestors.each { |ancestor|
 
-      if (self.types_element?(ancestor) && !self.types_element?(type))
+      if (types_element?(ancestor) && !types_element?(type))
         boolean = true
       end
 
@@ -94,6 +94,7 @@ class DataStructure < DataStructureInt
 
   end
 
+  # Private constants.
   TYPES = [Array, Hash, Queue, SizedQueue, Node, LinkedList].freeze()
   private_constant :TYPES
 
